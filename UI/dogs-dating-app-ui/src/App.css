@@ -1,0 +1,408 @@
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.App__Aside {
+  width: 50%;
+  background-color: whitesmoke;
+
+}
+
+.App__Aside__Img {
+  width: 100%;
+  height: auto;
+}
+
+.App__Form {
+  width: 50%;
+  /* background-color: #b32431; */
+  background-color: #b3243159;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color: #4c262a3d;
+  color: whitesmoke;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: whitesmoke;
+  color: #4c262a;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: #00000082;
+  font-weight: 300;
+  margin-bottom: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.FormTitle__Link {
+  color: #00000082;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px; 
+  font-family: 'Nunito', sans-serif;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: whitesmoke;
+  border-bottom: 1px solid #BB0118;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: whitesmoke;
+}
+
+.FormField__LabelCustom {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: rgb(104, 83, 83);
+}
+
+.Box input::-webkit-input-placeholder {
+  color: rgb(104, 83, 83);
+}
+
+.FormField__LabelCustomRadioButton {
+  padding-right: 10%;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: rgb(104, 83, 83);
+}
+
+#topRow {
+  padding-top: 5%;
+}
+
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.FormField__InputCustom {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: rgb(104, 83, 83);
+  outline: none;
+  border: 1px solid rgb(104, 83, 83);
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__InputCustom::placeholder{
+ color: rgb(104, 83, 83);
+}
+
+.FormField__Input::placeholder {
+  color: #00000082;
+}
+
+input:focus {
+  -webkit-transition: color .50s ease-in-out;
+  transition: color .50s ease-in-out;
+  border-bottom: 1px solid white;
+}
+
+input:-webkit-autofill {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.Required label {
+  font-weight: bold;
+}
+
+.Required label:after {
+  color: rgba(245, 245, 245, 0.678);
+  content: ' *';
+  display: inline;
+}
+
+.FormField__Button {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+}
+
+.FormField__ButtonCustom,
+.FormField__ButtonCustom:hover {
+  background-color: #b3243159;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  margin-top: 2%;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+}
+
+.FormField__Link {
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #BB0118;
+  padding-bottom: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.Navbar {
+  background-color: #b3243159;
+}
+
+.PageButton,
+.PageButton:hover {
+
+  background-color: #b3243159;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.Dogs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.Heading2 {
+  padding-top: 2%;
+  display: block;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: rgb(104, 83, 83);
+  margin-bottom: 0%;
+}
+
+
+.Heading2_Titles {
+  font-family: 'Nunito', sans-serif;
+  padding-top: 2%;
+  display: block;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(104, 83, 83);
+}
+
+.TopMargin {
+  margin-top: 50px;
+}
+
+.DogNameHr {
+  padding-bottom: 15px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.Hr {
+  padding-bottom: 25px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.ProfileTextBottomMarginRemoved {
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0%;
+}
+
+.DogName {
+  padding-top: 2%;
+  display: block;
+  font-size: 22px;
+}
+
+.NavBarText {
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0%;
+}
+
+.FloatRightButton {
+  float: right;
+}
+
+.FloatLeftButton {
+  float: left;
+}
+
+.DogProfile {
+  margin-bottom: 8% !important;
+  border: 2px solid #b3243159;
+  border-radius: 25px;
+  box-shadow: 4px 4px 5px 5px #b324302a;
+  padding: 40px;
+}
+
+.MiniDogProfile {
+  border: 1px dashed rgb(134, 125, 125);
+  border-radius: 25px;
+  padding: 15px;
+  display: inline-block;
+  /* This min-height does not work */
+  min-height: 100px;
+}
+
+.RadioButtonsLabels{
+  color: rgb(104, 83, 83);
+}
+
+.NoContent img{
+  opacity: 0.5;
+  width:50%;
+}
+
+.NoContent h1{
+  opacity: 0.5;
+}
+
+.Centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactButton{
+  font-family: 'Nunito', sans-serif;
+}
+
+.DogProfilePicture{
+  margin-bottom: 20px;
+  display:block;
+  margin:auto;
+}
+
+.PageButton_Text{
+  cursor: pointer;
+    color: #b3243159 !important;
+    font-size: 15px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #b3243159;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.ConfirmationModal{
+  position: relative;
+}
+
+.ConfirmationModalText{
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.ConfirmationModalButtons{
+  position: absolute;
+  margin-top: 70px;
+}
+
+.Font{
+  font-family: 'Nunito', sans-serif;
+}
+
+.YesButton, .YesButton:hover {
+  background-color: #b3243159;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10%;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-right: 100px;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.NoButton, .NoButton:hover{
+  background-color: #b3243159;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10%;
+  padding: 8px 16px;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.LikeButton{
+  color: #b3243159 !important;
+  /* float: right; */
+}

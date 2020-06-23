@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+    height: 566px;
+    position: relative;
+}
+
+.Breed {
+    color: grey;
+    font-size: 18px;
+}
+
+.ContactButton,
+.ContactButton:hover {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #b3243159;
+    text-align: center;
+    cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.ContactButton:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+
+.UserContactCard {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(104, 83, 83);
+}
+
+.UserContactCard a {
+    color: #b3243159;
+}
+
+#dogImageId {
+    position: relative;
+    display: inline-block;
+    height: 18.8rem;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+}
+
+#dogImageId .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#dogImageId img {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.CloseModalButton,
+.CloseModalButton:hover {
+    color: #b3243159;
+    border-color: white;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.Modal {
+    position: relative;
+}
+
+.GetToKnowMe {
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    color: rgb(104, 83, 83) !important;
+}
+
+.PopupContent {
+    /* background-color: #b3243159; */
+    color:  rgb(104, 83, 83);
+    /* border-radius: 80px; */
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+}
+
+.ProfileText {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(104, 83, 83);
+    margin-bottom: 10px;
+}
+
+.DogProfileBreed {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(134, 125, 125);
+    margin-bottom: 10px;
+}
+
+.Heading2_DogName {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(104, 83, 83);
+    margin-bottom: 0px;
+    margin-top: 20px;
+}

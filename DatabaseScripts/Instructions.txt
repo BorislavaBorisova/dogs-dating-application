@@ -1,0 +1,20 @@
+[City]
+1. Execute CreateCityTable.sql
+2. Import data from Cities.xlsx into existing table using the Import Data wizard from SQL Server Management Studio.
+3. Execute AlterCityTable.sql
+
+[User]
+4. Execute CreateUserTable.sql
+
+[Breed]
+5. Execute CreateBreedTable.sql
+6. Import data from Breeds.xlsx into existing table using the Import Data wizard from SQL Server Management Studio.
+7. Execute AlterBreedTable.sql
+
+[Dog]
+8. Execute CreateDogTable.sql
+
+[LikedDogs]
+9. Execute CreateLikedDogsBridgeTable.sql
+
+10. Execute AdditionalChanges.sql

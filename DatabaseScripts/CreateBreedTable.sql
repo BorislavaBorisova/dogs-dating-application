@@ -1,0 +1,5 @@
+CREATE TABLE [dbo].[Breed]
+(
+	[Id] UNIQUEIDENTIFIER, 
+    [Name] NVARCHAR(255) 
+)

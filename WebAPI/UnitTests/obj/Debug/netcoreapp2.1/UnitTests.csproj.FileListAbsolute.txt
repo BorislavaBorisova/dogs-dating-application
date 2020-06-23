@@ -1,0 +1,17 @@
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.deps.json
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.json
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.dev.json
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.pdb
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\WebAPI.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\bin\Debug\netcoreapp2.1\WebAPI.pdb
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csprojAssemblyReference.cache
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfoInputs.cache
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.cs
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CopyComplete
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.dll
+C:\Users\Intern-06\borislava\work1\Interns2019\DogsDatingApplication\WebAPI\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.pdb
